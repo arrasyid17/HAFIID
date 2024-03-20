@@ -4,7 +4,7 @@
   <div class="flex flex-wrap -mx-3">
     <div class="w-full px-3">
       <h1 class="text-3xl font-bold mb-4">Buku Tamu</h1>
-      <form action="{{ route('guestbook.store') }}" method="POST">
+      <form action="" method="POST">
         @csrf
         <div class="mb-4">
           <label for="name" class="block text-sm font-medium text-gray-700">Nama:</label>
@@ -23,4 +23,9 @@
     </div>
   </div>
 </div>
+
+@if(request()->isMethod('post'))
+<div class="w-full px-6 py-3 mx-auto mt-4 bg-green-200 text-green-700 rounded-md">Pesan berhasil dikirim!</div>
+@endif
+
 @endsection
