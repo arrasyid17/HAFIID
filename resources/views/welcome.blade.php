@@ -12,7 +12,7 @@
   @vite('resources/js/app.js')
   <div class="bg-gray-100 p-4">
     <h1 class="text-2xl font-bold text-gray-800">Selamat datang di Proyek avel dengan Tailwind CSS</h1>
-    <p class="mt-2 text-gray-600">Pelajari lebih lanjut tentang penggunaan Tailwind CSS di Laravel.</p>
+    <p class="mt-2 text-gray-600">Pelajari lebih lanjut tentang cara penggunaan Tailwind CSS di Laravel.</p>
 </div>
 
 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
