@@ -7,7 +7,7 @@
 </head>
 <body>
   <h1 class="text-3xl font-bold underline">
-    Hello world!
+    Hello worlds!
   </h1>
   @vite('resources/js/app.js')
   <div class="bg-gray-100 p-4">
