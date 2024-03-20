@@ -24,3 +24,15 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/produk', function () {
+    return view('produk');
+});
+
+Route::get('/biodata', function () {
+    return view('biodata');
+});
+
+Route::get('/bukutamu', function () {
+    return view('bukutamu');
+});
